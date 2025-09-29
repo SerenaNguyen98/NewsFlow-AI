@@ -33,6 +33,10 @@ Luồng 1: Nguồn tin → Lọc 10 tin tức & xử lý → AI đánh giá 10 b
 Luồng 2: Viết lại nội dung → Gửi duyệt (Telegram) → Xuất bản (Facebook) → Lưu log (Google Sheets).
 <img width="1504" height="628" alt="image" src="https://github.com/user-attachments/assets/e1bf1ef4-bf4c-410f-9b64-603e191ecc2b" />
 
+# Kết quả:
+
+<img width="1643" height="913" alt="image" src="https://github.com/user-attachments/assets/e652f635-9b1f-4603-ab84-1accc60a8b8c" />
+
 # Highlights
 
 - End-to-end automation: từ thu thập đến xuất bản.
