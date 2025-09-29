@@ -1,7 +1,8 @@
 # NewsFlow-AI
+
 NewsFlow AI là hệ thống tự động hóa tin tức được xây dựng trên nền tảng n8n kết hợp AI (Google Gemini), nhằm thu thập – đánh giá – biên tập – xuất bản tin tức lên mạng xã hội. Mục tiêu là giúp đội ngũ truyền thông rút ngắn thời gian xử lý tin, ưu tiên tin hot và chuẩn hóa nội dung theo phong cách nhất quán.
 
-# Features
+# Tính năng chính
 
 - Thu thập dữ liệu từ RSS feed của các trang báo lớn ( Ở đây mình lấy từ https://vnexpress.net ).
 - Loại bỏ trùng lặp để giữ lại tin mới nhất.
@@ -13,7 +14,7 @@ NewsFlow AI là hệ thống tự động hóa tin tức được xây dựng tr
 - Xuất bản tin tức: đăng bài + ảnh + hashtag lên Facebook.
 - Lưu trữ & theo dõi trạng thái (Chưa duyệt / Đã đăng / Không duyệt) trong Google Sheets.
 
-# Architecture/ Kiến trúc hệ thống
+# Kiến trúc hệ thống
 
 - n8n workflows: Điều phối toàn bộ pipeline tin tức.
 - Google Gemini (AI): Đánh giá viral score, viết lại bài, sinh hashtag.
@@ -33,11 +34,11 @@ Luồng 1: Nguồn tin → Lọc 10 tin tức & xử lý → AI đánh giá 10 b
 Luồng 2: Viết lại nội dung → Gửi duyệt (Telegram) → Xuất bản (Facebook) → Lưu log (Google Sheets).
 <img width="1504" height="628" alt="image" src="https://github.com/user-attachments/assets/e1bf1ef4-bf4c-410f-9b64-603e191ecc2b" />
 
-# Kết quả:
+# Kết quả
 
 <img width="1643" height="913" alt="image" src="https://github.com/user-attachments/assets/e652f635-9b1f-4603-ab84-1accc60a8b8c" />
 
-# Highlights
+# Điểm nổi bật
 
 - End-to-end automation: từ thu thập đến xuất bản.
 - AI-driven workflow: tự động đánh giá & viết lại tin tức.
